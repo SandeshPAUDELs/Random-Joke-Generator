@@ -1,0 +1,39 @@
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.container{
+    align-items: center;
+    min-width: 400px;
+    padding: 50px 20px;
+    background-color: rgb(186, 181, 181);
+    border-radius: 5px;
+    margin-top: 100px;
+}
+.btn{
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: .99rem;
+    border-radius: 3px;
+    border: none;
+    color: rgb(232, 230, 230);
+    background-color: blue;
+}
+h1 {
+    font-size: 1.1rem;
+    color: burlywood;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.new-joke-btn{
+    background-color: rgb(16, 70, 16);
+}
+#joke-text{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(17, 2, 2);
+}
